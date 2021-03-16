@@ -2768,8 +2768,11 @@ input, select, textarea {
 					-ms-flex-shrink: 1;
 					flex-shrink: 1;
 					padding: 1rem 0 0 0;
-					text-align: center;
-					width: 100%;
+					align-content: center;
+					/* justify-content: center; */
+					/* text-align: center; */
+					width: 20%;
+					align-self: center;
 				}
 
 					ul.actions:not(.fixed) li > * {
@@ -2793,7 +2796,7 @@ input, select, textarea {
 						ul.actions:not(.fixed) li input[type="button"].icon:before,
 						ul.actions:not(.fixed) li button.icon:before,
 						ul.actions:not(.fixed) li .button.icon:before {
-							margin-left: -0.5rem;
+							margin-left: 0rem;
 						}
 
 		}
@@ -3386,6 +3389,7 @@ input, select, textarea {
 				}
 
 		#intro h1 {
+			margin-top: -4rem;
 			font-size: 5rem;
 			line-height: 1;
 		}
@@ -3395,6 +3399,7 @@ input, select, textarea {
 			font-style: italic;
 			margin-top: -0.25rem;
 			text-align: center;
+			margin-bottom: 20rem;
 		}
 
 		#intro + #header {
@@ -3482,11 +3487,12 @@ input, select, textarea {
 				#intro p {
 					font-size: 1rem;
 					margin-top: 0rem;
+					margin-bottom: 13rem;
 				}
 
-				#intro .actions {
+				/* #intro .actions {
 					display: none;
-				}
+				} */
 
 		}
 
