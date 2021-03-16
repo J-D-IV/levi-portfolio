@@ -2107,10 +2107,10 @@ input, select, textarea {
 			position: relative;
 			width: 4rem;
 			height: 4rem;
-			line-height: 8rem;
+			line-height: 4rem;
 			border-radius: 4rem;
 			text-indent: 4rem;
-			/* overflow: hidden; */
+			overflow: hidden;
 			padding: 0;
 			white-space: nowrap;
 		}
@@ -3475,6 +3475,7 @@ input, select, textarea {
 
 			#intro {
 				padding: 5rem 2rem 1rem 2rem ;
+				margin-bottom: 2rem;
 				min-height: 80vh;
 			}
 
