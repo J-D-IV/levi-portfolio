@@ -2768,10 +2768,10 @@ input, select, textarea {
 					-ms-flex-shrink: 1;
 					flex-shrink: 1;
 					padding: 1rem 0 0 0;
-					align-content: center;
+					/* align-content: center; */
 					/* justify-content: center; */
-					/* text-align: center; */
-					width: 20%;
+					text-align: center;
+					width: 80%;
 					align-self: center;
 				}
 
@@ -3487,7 +3487,7 @@ input, select, textarea {
 				#intro p {
 					font-size: 1rem;
 					margin-top: 0rem;
-					margin-bottom: 13rem;
+					margin-bottom: 11.5rem;
 				}
 
 				/* #intro .actions {
