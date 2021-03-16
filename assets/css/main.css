@@ -3488,7 +3488,6 @@ input, select, textarea {
 					font-size: 1rem;
 					margin-top: 0rem;
 					margin-bottom: 11.5rem;
-					padding-bottom: 2rem;
 				}
 
 				/* #intro .actions {
@@ -3901,9 +3900,13 @@ input, select, textarea {
 				}
 
 			}
-
+			@media screen and (max-width: 480px) {
+				#firstpost {
+					margin-top: 2rem;
+				}
+			}
 			@media screen and (max-width: 736px) {
-
+				
 				#main > .posts > * {
 					width: 100%;
 				}
