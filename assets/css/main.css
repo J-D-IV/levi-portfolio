@@ -3902,7 +3902,7 @@ input, select, textarea {
 			}
 			@media screen and (max-width: 480px) {
 				.posts {
-					margin-top: 2rem;
+					padding-top: 4rem;
 				}
 			}
 			@media screen and (max-width: 736px) {
