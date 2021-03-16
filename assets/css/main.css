@@ -3901,8 +3901,8 @@ input, select, textarea {
 
 			}
 			@media screen and (max-width: 480px) {
-				#firstpost {
-					margin-top: 8rem;
+				.posts {
+					margin-top: 2rem;
 				}
 			}
 			@media screen and (max-width: 736px) {
