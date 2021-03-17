@@ -3490,14 +3490,14 @@ input, select, textarea {
 					margin-top: 0rem;
 					margin-bottom: 11.5rem;
 				}
-				/* #intro.levi {
-					margin-bottom: 4rem;
-					padding-bottom: 4rem;
-				} */
-
-				#intro .actions {
-					display: block;
+				#intro.levi {
+					margin-top: 2rem;
+					/* padding-bottom: 4rem; */
 				}
+
+				/* #intro .actions {
+					display: block;
+				} */
 
 		}
 
