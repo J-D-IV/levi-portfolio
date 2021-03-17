@@ -3483,7 +3483,7 @@ input, select, textarea {
 					font-size: 3.25rem;
 					line-height: 1.1;
 					margin-bottom: 1rem;
-					/* margin-top: .2rem; */
+					margin-top: .1rem;
 				}
 
 				#intro p {
