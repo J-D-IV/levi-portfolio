@@ -3475,7 +3475,7 @@ input, select, textarea {
 
 			#intro {
 				padding: 5rem 2rem 1rem 2rem ;
-				margin-bottom: 2rem;
+				margin-bottom: 3rem;
 				min-height: 80vh;
 			}
 
@@ -3491,7 +3491,7 @@ input, select, textarea {
 					margin-bottom: 11.5rem;
 				}
 				#intro.levi {
-					margin-bottom: 4rem;
+					/* margin-bottom: 4rem; */
 					/* padding-bottom: 4rem; */
 				}
 
