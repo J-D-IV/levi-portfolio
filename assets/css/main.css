@@ -3491,8 +3491,8 @@ input, select, textarea {
 					margin-bottom: 11.5rem;
 				}
 				#intro.levi {
-					margin-top: 4rem;
-					/* padding-bottom: 4rem; */
+					/* margin-top: 4rem; */
+					padding-top: 4rem;
 				}
 
 				/* #intro .actions {
