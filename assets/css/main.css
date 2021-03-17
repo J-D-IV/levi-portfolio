@@ -3488,12 +3488,11 @@ input, select, textarea {
 				#intro p {
 					font-size: 1rem;
 					margin-top: 0rem;
-					margin-bottom: 13rem;
+					margin-bottom: 10rem;
 				}
-				/* #intro.levi {
-					margin-top: 7rem;
-					padding-bottom: 4rem;
-				} */
+				#intro li {
+					margin-top: 2rem;
+				}
 
 				/* #intro .actions {
 					display: block;
