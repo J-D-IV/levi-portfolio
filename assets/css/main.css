@@ -2762,11 +2762,11 @@ input, select, textarea {
 					-moz-flex-grow: 1;
 					-webkit-flex-grow: 1;
 					-ms-flex-grow: 1;
-					flex-grow: 1;
+					flex-grow: 2;
 					-moz-flex-shrink: 1;
 					-webkit-flex-shrink: 1;
 					-ms-flex-shrink: 1;
-					flex-shrink: 2;
+					flex-shrink: 1;
 					padding: 1rem 0 0 0;
 					/* align-content: center; */
 					/* justify-content: center; */
