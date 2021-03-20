@@ -256,10 +256,3 @@
 		}
 
 })(jQuery);
-
-$(document).ready(function() {
-	$('.image').magnificPopup({type:'image'});
-});
-$(document).ready(function() {
-	$('.image.fit').magnificPopup({type:'image'});
-});
