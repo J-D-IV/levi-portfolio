@@ -583,8 +583,12 @@
 			});
 
 	};
-	$(document).ready(function() {
-		$('.image-link').magnificPopup({type:'image'});
-	});
 
 })(jQuery);
+
+$(document).ready(function() {
+	$('.image').magnificPopup({type:'image'});
+});
+$(document).ready(function() {
+	$('.image.fit').magnificPopup({type:'image'});
+});
