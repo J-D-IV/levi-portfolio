@@ -2623,6 +2623,18 @@ input, select, textarea {
 			margin: 2.5rem 0;
 			width: 100%;
 		}
+		/* .image.fit2 {
+			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			border: 0;
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+		} */
 
 			.image.fit:first-child {
 				margin-top: 0;
