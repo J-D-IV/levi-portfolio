@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
 	</head>
 	<body class="is-preload">
 
@@ -71,26 +72,51 @@
 								<article>
 									<header>
 										<!-- <span class="date">April 24, 2017</span> -->
-										<h2 id="firstpost"><a href="#">Project 1</a></h2>
-										<h3>[cool technique]</h3>
+										<h2 id="firstpost"><a href="#">Customized Firepit</a></h2>
+										<h3>[American Flag and Yankees Symbol]</h3>
 									</header>
-									<a onclick="javascript: window.open('images/pic03.jpg');" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>Some cool description of the project along with a story behind its inspiration.</p>
-									<ul class="actions special">
-										<li><a href="#footer" class="button">Hit me up son!</a></li>
-									</ul>
+									<a class="image fit"><img id="myImg" src="images/project2.jpg" alt="" /></a>
+										<p>Original fitepit with full coal and firewood functiionailty. Product is one of one but artist is open to propsals.</p>
+										<ul class="actions special">
+											<li><a href="#footer" class="button">Hit me up son!</a></li>
+										</ul>
+										<!-- The Modal -->
+										<div id="myModal" class="modal">
+
+											<!-- The Close Button -->
+											<span class="close">&times;</span>
+
+											<!-- Modal Content (The Image) -->
+											<img class="modal-content" id="img01">
+
+											<!-- Modal Caption (Image Text) -->
+											<div id="caption"></div>
+										</div>
 								</article>
 								<article>
 									<header>
 										<!-- <span class="date">April 22, 2017</span> -->
-										<h2><a href="#">Project 1</a></h2>
-										<h3>[cool technique]</h3>
+										<h2><a href="#">Refurbished Antique Barbaque
+										</a></h2>
+										<h3>[Custom welding w/ reconfiguration]</h3>
 									</header>
-									<a  class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Some cool description of the project along with a story behind its inspiration.</p>
+									<a  class="image fit"><img src="images/pic03.jpg" alt="" /></a> 
+									<p>Artist was asked to restore a classic barbaque station and update for new funtionailty. Please inquire fore more information</p>
 									<ul class="actions special">
 										<li><a href="#footer" class="button">What you think guy!</a></li>
 									</ul>
+									<!-- The Modal -->
+									<div id="myModal" class="modal">
+
+										<!-- The Close Button -->
+										<span class="close">&times;</span>
+
+										<!-- Modal Content (The Image) -->
+										<img class="modal-content" id="img01">
+
+										<!-- Modal Caption (Image Text) -->
+										<div id="caption"></div>
+									</div>
 								</article>
 							</section>
 
@@ -170,11 +196,34 @@
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				// Get the modal
+				var modal = document.getElementById("myModal");
+
+				// Get the image and insert it inside the modal - use its "alt" text as a caption
+				var img = document.getElementById("myImg");
+				var modalImg = document.getElementById("img01");
+				var captionText = document.getElementById("caption");
+				img.onclick = function(){
+					modal.style.display = "block";
+					modalImg.src = this.src;
+					captionText.innerHTML = this.alt;
+				}
+
+				// Get the <span> element that closes the modal
+				var span = document.getElementsByClassName("close")[0];
+
+				// When the user clicks on <span> (x), close the modal
+				span.onclick = function() {
+					modal.style.display = "none";
+				}
+			</script>
 
 	</body>
 </html>
