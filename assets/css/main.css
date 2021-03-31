@@ -3745,7 +3745,7 @@ input, select, textarea {
 		}
 
 		#intro + #header {
-			margin-top: -30rem;
+			margin-top: -2rem;
 		}
 
 			#intro + #header .logo {
