@@ -3066,7 +3066,13 @@ input, select, textarea {
 }
 
 #myImg:hover {opacity: 0.8;}
+#myImg2 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
+#myImg2:hover {opacity: 0.8;}
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -3735,7 +3741,7 @@ input, select, textarea {
 			font-style: italic;
 			margin-top: -0.25rem;
 			text-align: center;
-			margin-bottom: 20rem;
+			margin-bottom: 18rem;
 		}
 
 		#intro + #header {
