@@ -3927,7 +3927,7 @@ input, select, textarea {
 			padding: 1rem 1.75rem;
 			text-transform: uppercase;
 			visibility: visible;
-			margin-bottom: -10px;
+			/* margin-bottom: -10px; */
 		}
 
 			#header .logo:hover {
@@ -3952,12 +3952,13 @@ input, select, textarea {
 
 			#header {
 				padding-bottom: 2rem;
+			
 			}
 
 				#header .logo {
 					font-size: 1.75rem;
 					border-width: 3px !important;
-
+					margin-bottom: 20px;
 				}
 
 		}
