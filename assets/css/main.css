@@ -3831,10 +3831,10 @@ input, select, textarea {
 				#intro p {
 					font-size: 1rem;
 					margin-top: 0rem;
-					margin-bottom: 13rem;
+					margin-bottom: 14rem;
 				}
 				#intro li {
-					margin-top: 1.5rem;
+					margin-top: 2rem;
 				}
 
 				/* #intro .actions {
