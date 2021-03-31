@@ -3065,7 +3065,7 @@ input, select, textarea {
   transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
+#myImg:hover {opacity: 0.8;}
 
 /* The Modal (background) */
 .modal {
@@ -3115,7 +3115,7 @@ input, select, textarea {
 
 /* The Close Button */
 .close {
-  position: absolute;
+  position: fixed;
   top: 15px;
   right: 35px;
   color: #f1f1f1;
@@ -3951,7 +3951,7 @@ input, select, textarea {
 				#header .logo {
 					font-size: 1.75rem;
 					border-width: 3px !important;
-					
+
 				}
 
 		}
